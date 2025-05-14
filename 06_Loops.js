@@ -40,6 +40,7 @@ for (let value of arr) {
 }
 
 // While loop and Do While loop
+// While
 let a = 10
 let i = 0
 console.log("While Loop: ")
@@ -47,3 +48,13 @@ while (i < a) {
     console.log(i)
     i++
 }
+
+// Do while
+a = 18
+i = 0
+console.log("Do While Loop: ")
+do {
+    console.log(i)
+    i++
+}
+while (i < a)

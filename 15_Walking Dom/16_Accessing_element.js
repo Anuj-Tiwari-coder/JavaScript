@@ -2,10 +2,10 @@ replit_link = "https://replit.com/@anujtiwari0043/Accessing-the-Elements"
 console.log("ReplitLink: " + replit_link);
 
 let num = 1000000
-let fromInia = true
+let fromIndia = true
 let fromUS = true
 let user = "India" || "US"
-if (user == "India" && fromInia) {
+if (user == "India" && fromIndia) {
     num = num.toLocaleString("en-IN"); // "1,000,000"
 } else if (user == "US" && fromUS) {
     num = num.toLocaleString("en-US"); // "1,000,000"
